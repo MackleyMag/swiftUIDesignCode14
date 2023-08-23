@@ -50,6 +50,7 @@
 		CF772D6D2A95983900535CC0 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D422A95951100535CC0 /* LivestreamSection.swift */; };
 		CF772D702A95983900535CC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF772D0B2A941AC700535CC0 /* Preview Assets.xcassets */; };
 		CF772D712A95983900535CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF772D072A941AC700535CC0 /* Assets.xcassets */; };
+		CF772D772A959BF400535CC0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D762A959BF400535CC0 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		CF772D542A95979400535CC0 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		CF772D572A95979B00535CC0 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		CF772D752A95983900535CC0 /* DesignCode14AppmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode14AppmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF772D762A959BF400535CC0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 			children = (
 				CF772D322A9423BC00535CC0 /* SideBar.swift */,
 				CF772D052A941AC500535CC0 /* ContentView.swift */,
+				CF772D762A959BF400535CC0 /* TabBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 			files = (
 				CF772D3B2A943AC900535CC0 /* Course.swift in Sources */,
 				CF772D332A9423BC00535CC0 /* SideBar.swift in Sources */,
+				CF772D772A959BF400535CC0 /* TabBar.swift in Sources */,
 				CF772D482A95951100535CC0 /* Download.swift in Sources */,
 				CF772D352A9428AA00535CC0 /* CourseItem.swift in Sources */,
 				CF772D4C2A95951100535CC0 /* TutorialSection.swift in Sources */,
