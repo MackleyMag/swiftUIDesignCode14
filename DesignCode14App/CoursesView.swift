@@ -16,28 +16,39 @@ struct CoursesView: View {
     var body: some View {
         ZStack {
             ScrollView {
-                VStack(spacing: 20) {
+                LazyVGrid(
+                    columns: [
+                        GridItem(.adaptive(minimum: 160), spacing: 16)
+                    ],
+                    spacing: 16
+                ) {
                     ForEach(courses) { item in
-                        CourseItem(course: item)
-                            .matchedGeometryEffect(id: item.id, in: nameSpace, isSource: !show)
-                        .frame(width: 335, height: 250)
-                        .onTapGesture {
-                            withAnimation(.spring()) {
-                                show.toggle()
-                                selectedItem = item
-                                isDisabled = true
-                            }
+                        VStack {
+                            CourseItem(course: item)
+                                .matchedGeometryEffect(id: item.id, in: nameSpace, isSource: !show)
+                                .frame(height: 200)
+                                .onTapGesture {
+                                    withAnimation(.spring(response: 0.5, dampingFraction: 0.7, blendDuration: 0)) {
+                                        show.toggle()
+                                        selectedItem = item
+                                        isDisabled = true
+                                    }
+                                }
+                                .disabled(isDisabled)
                         }
-                        .disabled(isDisabled)
+                        .matchedGeometryEffect(id: "container\(item.id)", in: nameSpace, isSource: !show)
                     }
                 }
+                .padding(16)
                 .frame(maxWidth: .infinity)
             }
+            .zIndex(1)
             if selectedItem != nil {
-                ScrollView {
-                    CourseItem(course: selectedItem!)
-                        .matchedGeometryEffect(id: selectedItem!.id, in: nameSpace)
-                        .frame(height: 300)
+                ZStack(alignment: .topTrailing) {
+                    CourseDetail(course: selectedItem!,nameSpace: nameSpace)
+                    
+                    ClouseButton()
+                        .padding(.trailing, 16)
                         .onTapGesture {
                             withAnimation(.spring()) {
                                 show.toggle()
@@ -47,27 +58,8 @@ struct CoursesView: View {
                                 }
                             }
                         }
-                    VStack {
-                        ForEach(0 ..< 20) { item in
-                            CourseRow()
-                        }
-                    }
-                    .padding()
                 }
-                .background(Color("Background 1"))
-                .transition(
-                    .asymmetric(
-                        insertion: AnyTransition
-                            .opacity
-                            .animation(Animation.spring()
-                                .delay(0.3)),
-                        removal: AnyTransition
-                            .opacity
-                            .animation(.spring())
-                    )
-                    
-                )
-                .edgesIgnoringSafeArea(.all)
+                .zIndex(2)
             }
         }
     }
