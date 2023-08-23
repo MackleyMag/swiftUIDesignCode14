@@ -29,6 +29,27 @@
 		CF772D4C2A95951100535CC0 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D452A95951100535CC0 /* TutorialSection.swift */; };
 		CF772D4D2A95951100535CC0 /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D462A95951100535CC0 /* GradientModel.swift */; };
 		CF772D4E2A95951100535CC0 /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D472A95951100535CC0 /* Livestream.swift */; };
+		CF772D552A95979400535CC0 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D542A95979400535CC0 /* VisualEffectBlur.swift */; };
+		CF772D5B2A95983900535CC0 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D3A2A943AC900535CC0 /* Course.swift */; };
+		CF772D5C2A95983900535CC0 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D322A9423BC00535CC0 /* SideBar.swift */; };
+		CF772D5D2A95983900535CC0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D412A95951100535CC0 /* Download.swift */; };
+		CF772D5E2A95983900535CC0 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D342A9428AA00535CC0 /* CourseItem.swift */; };
+		CF772D5F2A95983900535CC0 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D572A95979B00535CC0 /* VisualEffectBlur.swift */; };
+		CF772D602A95983900535CC0 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D452A95951100535CC0 /* TutorialSection.swift */; };
+		CF772D612A95983900535CC0 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D3F2A9593F900535CC0 /* CourseDetail.swift */; };
+		CF772D622A95983900535CC0 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D442A95951100535CC0 /* Tutorial.swift */; };
+		CF772D632A95983900535CC0 /* ClouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D3D2A957DE900535CC0 /* ClouseButton.swift */; };
+		CF772D642A95983900535CC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D052A941AC500535CC0 /* ContentView.swift */; };
+		CF772D652A95983900535CC0 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D2E2A94207900535CC0 /* CourseRow.swift */; };
+		CF772D662A95983900535CC0 /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D472A95951100535CC0 /* Livestream.swift */; };
+		CF772D672A95983900535CC0 /* DesignCode14AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D032A941AC500535CC0 /* DesignCode14AppApp.swift */; };
+		CF772D682A95983900535CC0 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D302A9422A400535CC0 /* CoursesView.swift */; };
+		CF772D692A95983900535CC0 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D432A95951100535CC0 /* CourseSection.swift */; };
+		CF772D6A2A95983900535CC0 /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D462A95951100535CC0 /* GradientModel.swift */; };
+		CF772D6C2A95983900535CC0 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D382A9429DD00535CC0 /* CourseList.swift */; };
+		CF772D6D2A95983900535CC0 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D422A95951100535CC0 /* LivestreamSection.swift */; };
+		CF772D702A95983900535CC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF772D0B2A941AC700535CC0 /* Preview Assets.xcassets */; };
+		CF772D712A95983900535CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF772D072A941AC700535CC0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF772D002A941AC500535CC0 /* DesignCode14App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode14App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF772D002A941AC500535CC0 /* DesignCode14AppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode14AppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF772D032A941AC500535CC0 /* DesignCode14AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCode14AppApp.swift; sourceTree = "<group>"; };
 		CF772D052A941AC500535CC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF772D072A941AC700535CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +96,9 @@
 		CF772D452A95951100535CC0 /* TutorialSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
 		CF772D462A95951100535CC0 /* GradientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientModel.swift; sourceTree = "<group>"; };
 		CF772D472A95951100535CC0 /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Livestream.swift; sourceTree = "<group>"; };
+		CF772D542A95979400535CC0 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		CF772D572A95979B00535CC0 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		CF772D752A95983900535CC0 /* DesignCode14AppmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode14AppmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF772D6E2A95983900535CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -115,9 +146,10 @@
 		CF772D012A941AC500535CC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF772D002A941AC500535CC0 /* DesignCode14App.app */,
+				CF772D002A941AC500535CC0 /* DesignCode14AppiOS.app */,
 				CF772D112A941AC700535CC0 /* DesignCode14AppTests.xctest */,
 				CF772D1B2A941AC700535CC0 /* DesignCode14AppUITests.xctest */,
+				CF772D752A95983900535CC0 /* DesignCode14AppmacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				CF772D032A941AC500535CC0 /* DesignCode14AppApp.swift */,
+				CF772D562A95979B00535CC0 /* macOS */,
+				CF772D532A95979400535CC0 /* iOS */,
 				CF772D3C2A943E0600535CC0 /* Model */,
 				CF772D362A94296300535CC0 /* Navigation */,
 				CF772D372A94297400535CC0 /* Items */,
@@ -198,12 +232,28 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		CF772D532A95979400535CC0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CF772D542A95979400535CC0 /* VisualEffectBlur.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CF772D562A95979B00535CC0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CF772D572A95979B00535CC0 /* VisualEffectBlur.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF772CFF2A941AC500535CC0 /* DesignCode14App */ = {
+		CF772CFF2A941AC500535CC0 /* DesignCode14AppiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF772D252A941AC700535CC0 /* Build configuration list for PBXNativeTarget "DesignCode14App" */;
+			buildConfigurationList = CF772D252A941AC700535CC0 /* Build configuration list for PBXNativeTarget "DesignCode14AppiOS" */;
 			buildPhases = (
 				CF772CFC2A941AC500535CC0 /* Sources */,
 				CF772CFD2A941AC500535CC0 /* Frameworks */,
@@ -213,9 +263,9 @@
 			);
 			dependencies = (
 			);
-			name = DesignCode14App;
+			name = DesignCode14AppiOS;
 			productName = DesignCode14App;
-			productReference = CF772D002A941AC500535CC0 /* DesignCode14App.app */;
+			productReference = CF772D002A941AC500535CC0 /* DesignCode14AppiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CF772D102A941AC700535CC0 /* DesignCode14AppTests */ = {
@@ -254,6 +304,23 @@
 			productReference = CF772D1B2A941AC700535CC0 /* DesignCode14AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CF772D592A95983900535CC0 /* DesignCode14AppmacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF772D722A95983900535CC0 /* Build configuration list for PBXNativeTarget "DesignCode14AppmacOS" */;
+			buildPhases = (
+				CF772D5A2A95983900535CC0 /* Sources */,
+				CF772D6E2A95983900535CC0 /* Frameworks */,
+				CF772D6F2A95983900535CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignCode14AppmacOS;
+			productName = DesignCode14App;
+			productReference = CF772D752A95983900535CC0 /* DesignCode14AppmacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,9 +357,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF772CFF2A941AC500535CC0 /* DesignCode14App */,
+				CF772CFF2A941AC500535CC0 /* DesignCode14AppiOS */,
 				CF772D102A941AC700535CC0 /* DesignCode14AppTests */,
 				CF772D1A2A941AC700535CC0 /* DesignCode14AppUITests */,
+				CF772D592A95983900535CC0 /* DesignCode14AppmacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -321,6 +389,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF772D6F2A95983900535CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF772D702A95983900535CC0 /* Preview Assets.xcassets in Resources */,
+				CF772D712A95983900535CC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -343,6 +420,7 @@
 				CF772D312A9422A400535CC0 /* CoursesView.swift in Sources */,
 				CF772D4A2A95951100535CC0 /* CourseSection.swift in Sources */,
 				CF772D4D2A95951100535CC0 /* GradientModel.swift in Sources */,
+				CF772D552A95979400535CC0 /* VisualEffectBlur.swift in Sources */,
 				CF772D392A9429DD00535CC0 /* CourseList.swift in Sources */,
 				CF772D492A95951100535CC0 /* LivestreamSection.swift in Sources */,
 			);
@@ -365,17 +443,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF772D5A2A95983900535CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF772D5B2A95983900535CC0 /* Course.swift in Sources */,
+				CF772D5C2A95983900535CC0 /* SideBar.swift in Sources */,
+				CF772D5D2A95983900535CC0 /* Download.swift in Sources */,
+				CF772D5E2A95983900535CC0 /* CourseItem.swift in Sources */,
+				CF772D5F2A95983900535CC0 /* VisualEffectBlur.swift in Sources */,
+				CF772D602A95983900535CC0 /* TutorialSection.swift in Sources */,
+				CF772D612A95983900535CC0 /* CourseDetail.swift in Sources */,
+				CF772D622A95983900535CC0 /* Tutorial.swift in Sources */,
+				CF772D632A95983900535CC0 /* ClouseButton.swift in Sources */,
+				CF772D642A95983900535CC0 /* ContentView.swift in Sources */,
+				CF772D652A95983900535CC0 /* CourseRow.swift in Sources */,
+				CF772D662A95983900535CC0 /* Livestream.swift in Sources */,
+				CF772D672A95983900535CC0 /* DesignCode14AppApp.swift in Sources */,
+				CF772D682A95983900535CC0 /* CoursesView.swift in Sources */,
+				CF772D692A95983900535CC0 /* CourseSection.swift in Sources */,
+				CF772D6A2A95983900535CC0 /* GradientModel.swift in Sources */,
+				CF772D6C2A95983900535CC0 /* CourseList.swift in Sources */,
+				CF772D6D2A95983900535CC0 /* LivestreamSection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		CF772D132A941AC700535CC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF772CFF2A941AC500535CC0 /* DesignCode14App */;
+			target = CF772CFF2A941AC500535CC0 /* DesignCode14AppiOS */;
 			targetProxy = CF772D122A941AC700535CC0 /* PBXContainerItemProxy */;
 		};
 		CF772D1D2A941AC700535CC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF772CFF2A941AC500535CC0 /* DesignCode14App */;
+			target = CF772CFF2A941AC500535CC0 /* DesignCode14AppiOS */;
 			targetProxy = CF772D1C2A941AC700535CC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,6 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -483,6 +587,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -519,7 +624,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mack.DesignCode14App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,7 +662,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mack.DesignCode14App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,6 +757,80 @@
 			};
 			name = Release;
 		};
+		CF772D732A95983900535CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DesignCode14App/DesignCode14App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesignCode14App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mack.DesignCode14App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF772D742A95983900535CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DesignCode14App/DesignCode14App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesignCode14App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mack.DesignCode14App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -660,7 +843,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF772D252A941AC700535CC0 /* Build configuration list for PBXNativeTarget "DesignCode14App" */ = {
+		CF772D252A941AC700535CC0 /* Build configuration list for PBXNativeTarget "DesignCode14AppiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF772D262A941AC700535CC0 /* Debug */,
@@ -683,6 +866,15 @@
 			buildConfigurations = (
 				CF772D2C2A941AC700535CC0 /* Debug */,
 				CF772D2D2A941AC700535CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF772D722A95983900535CC0 /* Build configuration list for PBXNativeTarget "DesignCode14AppmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF772D732A95983900535CC0 /* Debug */,
+				CF772D742A95983900535CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
