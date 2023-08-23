@@ -53,6 +53,8 @@
 		CF772D772A959BF400535CC0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D762A959BF400535CC0 /* TabBar.swift */; };
 		CF772D792A959F9E00535CC0 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D782A959F9D00535CC0 /* CourseSectionDetail.swift */; };
 		CF772D7A2A959F9E00535CC0 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D782A959F9D00535CC0 /* CourseSectionDetail.swift */; };
+		CF772D7C2A95A56500535CC0 /* LibraryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D7B2A95A56500535CC0 /* LibraryContent.swift */; };
+		CF772D7D2A95A56500535CC0 /* LibraryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF772D7B2A95A56500535CC0 /* LibraryContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,7 @@
 		CF772D752A95983900535CC0 /* DesignCode14AppmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode14AppmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF772D762A959BF400535CC0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		CF772D782A959F9D00535CC0 /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
+		CF772D7B2A95A56500535CC0 /* LibraryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,10 +171,10 @@
 				CF772D3C2A943E0600535CC0 /* Model */,
 				CF772D362A94296300535CC0 /* Navigation */,
 				CF772D372A94297400535CC0 /* Items */,
+				CF772D7E2A95A76300535CC0 /* Library */,
 				CF772D302A9422A400535CC0 /* CoursesView.swift */,
 				CF772D3F2A9593F900535CC0 /* CourseDetail.swift */,
 				CF772D782A959F9D00535CC0 /* CourseSectionDetail.swift */,
-				CF772D3D2A957DE900535CC0 /* ClouseButton.swift */,
 				CF772D382A9429DD00535CC0 /* CourseList.swift */,
 				CF772D072A941AC700535CC0 /* Assets.xcassets */,
 				CF772D092A941AC700535CC0 /* DesignCode14App.entitlements */,
@@ -253,6 +256,15 @@
 				CF772D572A95979B00535CC0 /* VisualEffectBlur.swift */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		CF772D7E2A95A76300535CC0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CF772D3D2A957DE900535CC0 /* ClouseButton.swift */,
+				CF772D7B2A95A56500535CC0 /* LibraryContent.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +443,7 @@
 				CF772D4D2A95951100535CC0 /* GradientModel.swift in Sources */,
 				CF772D552A95979400535CC0 /* VisualEffectBlur.swift in Sources */,
 				CF772D392A9429DD00535CC0 /* CourseList.swift in Sources */,
+				CF772D7C2A95A56500535CC0 /* LibraryContent.swift in Sources */,
 				CF772D492A95951100535CC0 /* LivestreamSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +488,7 @@
 				CF772D6A2A95983900535CC0 /* GradientModel.swift in Sources */,
 				CF772D6C2A95983900535CC0 /* CourseList.swift in Sources */,
 				CF772D6D2A95983900535CC0 /* LivestreamSection.swift in Sources */,
+				CF772D7D2A95A56500535CC0 /* LibraryContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
